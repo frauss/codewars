@@ -1,17 +1,16 @@
 "use strict";
 
 const chai = require('chai'),
-    expect = chai.expect
+    assert = chai.assert;
 
-let coding = require('../app');
+let testee = require('../app');
 
 describe("Solution", function() {
-    it("example1", function() {
-        let u = "I should have known that you would have a perfect answer for me!!!";
-        let v = ["J vltasl rlhr ", "zdfog odxr ypw", " atasl rlhr p ", "gwkzzyq zntyhv", " lvz wp!!!"];
-        let encoded = coding.movingShift(u, 1);
-        let joinedV = v.join('');
-        expect(joinedV).to.be.equal(encoded);
+    it("simple tests", function() {
+        assert.equal(testee.toCamelCase(''), '', "An empty string was provided but not returned");
+        assert.equal(testee.toCamelCase("the_stealth_warrior"), "theStealthWarrior", "toCamelCase('the_stealth_warrior') did not return correct value");
+        assert.equal(testee.toCamelCase("The-Stealth-Warrior"), "TheStealthWarrior", "toCamelCase('The-Stealth-Warrior') did not return correct value");
+        assert.equal(testee.toCamelCase("A-B-C"), "ABC", "toCamelCase('A-B-C') did not return correct value");
         //Test.assertSimilar(movingShift(u, 1), v)
     });
 });
