@@ -1,0 +1,14 @@
+{
+  "name": "chutes-and-ladders",
+  "version": "1.0.0",
+  "description": "Implements a game of Chutes and Ladders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fred Strauss",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.2"
+  }
+}
