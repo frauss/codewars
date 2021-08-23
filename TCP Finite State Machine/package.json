@@ -1,0 +1,11 @@
+{
+  "name": "tcp-finite-state-machine",
+  "version": "1.0.0",
+  "description": "Implements coding kata at: https://www.codewars.com/kata/54acc128329e634e9a000362",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fred Strauss",
+  "license": "ISC"
+}

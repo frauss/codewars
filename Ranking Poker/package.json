@@ -1,0 +1,15 @@
+{
+  "name": "ranking-poker",
+  "version": "1.0.0",
+  "description": "Ranks poker hands. Reference https://www.codewars.com/kata/5739174624fc28e188000465 for details",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fred Strauss",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  }
+}
