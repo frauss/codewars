@@ -1,0 +1,15 @@
+{
+  "name": "snail-traversal",
+  "version": "1.0.0",
+  "description": "Do a \"snail\" traversal of a 2-dimensional array.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fred Strauss",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
