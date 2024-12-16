@@ -1,0 +1,11 @@
+{
+  "name": "parseint-revisited",
+  "version": "1.0.0",
+  "description": "Implementation of coding kata https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fred Strauss",
+  "license": "ISC"
+}
